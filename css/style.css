@@ -1,0 +1,143 @@
+html{
+    font-family: raleway,sans-serif;
+}
+body{
+    min-width: 320px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.my-navbar ul a{
+    color: #000;
+}
+.navbar{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.navbar-brand{
+    height: 100%;
+}
+.my-navbar a:hover{
+    color: #f34949;
+}
+.my-navbar ul{
+    list-style-type: none;
+    margin-top: 5px;
+}
+.my-navbar li{
+    color: black;
+    display: inline;
+}
+.my-navbar a:hover{
+    background-color: transparent!important;
+}
+.my-navbar li:not(:last-child) , .my-navbar li:not(:first-child){
+    color: black;
+    /*display: inline;*/
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+}
+my-navbar ul{
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+.icon-bar{
+    background-color:#f34949 !important;
+}
+.banner{
+    background-image: url(../images/banner.jpg);
+    background-position: center;
+    height: 570px;  
+    border-bottom: 4px solid #f34949;
+}
+.home-menu{
+    margin-top: 50px;
+}
+.home-menu ul{
+    padding: 0 ;
+    list-style-type: none;
+}
+
+.dish{
+    float: left;
+    color: #555;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    background: #fff;
+    padding-right: 15px;
+}
+.price{
+    float: right;
+    color: #555;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    background: #fff;
+    padding-left: 15px;
+}
+.description{
+    clear: both;
+    display: block;
+    color: #999;
+    font-style: italic;
+    font-size: 14px;
+    padding-top: 18px;
+    border-top: 1px solid #ddd;
+    position: relative;
+    top:-8px;
+}
+.featured{
+    margin-top: 50px;
+}
+.featured ul{
+    padding: 0;
+}
+/*.featured ul:after{
+content: "";
+display:block;
+clear: both;
+}*/
+.featured li{
+    margin: 1%;
+    list-style-type: none;
+}
+.featured li img{
+    width: 100%;
+    margin-bottom: 18px;
+}
+.featured li a{
+    color: #333;
+    text-decoration: none;
+    float: left;
+}
+.featured li span{
+    float: right;
+    color: #333;
+}
+
+footer{
+    background: #3b3b3b; 
+    margin-top: 100px;
+    padding: 30px 0;
+}
+
+/*footer:after{
+content:"";
+display:block;
+clear: both;
+}*/
+footer ul{
+    list-style-type: none;
+    color: #eee;;
+}
+footer li{
+    margin: 10px 0;
+}
+footer a{
+    color: #eee;
+    text-decoration: none;
+}
